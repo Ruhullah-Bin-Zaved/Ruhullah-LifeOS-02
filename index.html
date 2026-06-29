@@ -1,1 +1,555 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="theme-color" content="#0b1020">
+
+<title>Ruhullah LifeOS</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="loading-screen">
+
+<div class="loader"></div>
+
+<h1>Loading LifeOS...</h1>
+
+</div>
+
+<div class="container">
+
+<!-- ========================= -->
+
+<!-- SIDEBAR -->
+
+<!-- ========================= -->
+
+<aside class="sidebar">
+
+<div class="logo">
+
+<div class="logo-circle">
+
+<i class="fa-solid fa-dumbbell"></i>
+
+</div>
+
+<div>
+
+<h2>LifeOS</h2>
+
+<p>v1.0 Alpha</p>
+
+</div>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li class="active">
+
+<a href="#dashboard">
+
+<i class="fa-solid fa-house"></i>
+
+<span>Dashboard</span>
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#routine">
+
+<i class="fa-solid fa-calendar-days"></i>
+
+<span>Routine</span>
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#nutrition">
+
+<i class="fa-solid fa-bowl-food"></i>
+
+<span>Nutrition</span>
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#workout">
+
+<i class="fa-solid fa-dumbbell"></i>
+
+<span>Workout</span>
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#study">
+
+<i class="fa-solid fa-book-open"></i>
+
+<span>Study</span>
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#health">
+
+<i class="fa-solid fa-heart-pulse"></i>
+
+<span>Health</span>
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#finance">
+
+<i class="fa-solid fa-wallet"></i>
+
+<span>Finance</span>
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#analytics">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<span>Analytics</span>
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#settings">
+
+<i class="fa-solid fa-gear"></i>
+
+<span>Settings</span>
+
+</a>
+
+</li>
+
+</ul>
+
+</nav>
+
+</aside>
+
+<!-- ========================= -->
+
+<!-- MAIN -->
+
+<!-- ========================= -->
+
+<main class="main">
+
+<header class="topbar">
+
+<div>
+
+<h1>
+
+Welcome,
+
+<span id="username">
+
+Ruhullah
+
+</span>
+
+👋
+
+</h1>
+
+<p>
+
+Discipline beats motivation.
+
+</p>
+
+</div>
+
+<div class="top-actions">
+
+<button>
+
+<i class="fa-solid fa-bell"></i>
+
+</button>
+
+<button>
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+<img
+src="assets/images/profile.png"
+class="profile">
+
+</div>
+
+</header>
+
+<!-- ========================= -->
+
+<!-- DASHBOARD -->
+
+<!-- ========================= -->
+
+<section id="dashboard">
+
+<div class="grid">
+
+<div class="card big">
+
+<h2>
+
+Today's Progress
+
+</h2>
+
+<div class="progress-ring">
+
+<canvas id="progressCanvas"></canvas>
+
+<div class="center">
+
+<h1>
+
+0%
+
+</h1>
+
+<p>
+
+Completed
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Current Weight
+
+</h3>
+
+<h1>
+
+117 kg
+
+</h1>
+
+<p>
+
+Goal : 93 kg
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Calories
+
+</h3>
+
+<h1>
+
+0 / 2300
+
+</h1>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Protein
+
+</h3>
+
+<h1>
+
+0 / 160 g
+
+</h1>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Water
+
+</h3>
+
+<h1>
+
+0 / 4 L
+
+</h1>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Study
+
+</h3>
+
+<h1>
+
+0 / 4 Hours
+
+</h1>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+
+<!-- QUICK ACTIONS -->
+
+<!-- ========================= -->
+
+<section>
+
+<div class="section-title">
+
+<h2>
+
+Quick Actions
+
+</h2>
+
+</div>
+
+<div class="action-grid">
+
+<button>
+
+<i class="fa-solid fa-plus"></i>
+
+Add Meal
+
+</button>
+
+<button>
+
+<i class="fa-solid fa-dumbbell"></i>
+
+Start Workout
+
+</button>
+
+<button>
+
+<i class="fa-solid fa-book"></i>
+
+Study
+
+</button>
+
+<button>
+
+<i class="fa-solid fa-droplet"></i>
+
+Water
+
+</button>
+
+<button>
+
+<i class="fa-solid fa-scale-balanced"></i>
+
+Weight
+
+</button>
+
+<button>
+
+<i class="fa-solid fa-list-check"></i>
+
+Checklist
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+
+<!-- TODAY ROUTINE -->
+
+<!-- ========================= -->
+
+<section id="routine">
+
+<div class="section-title">
+
+<h2>
+
+Today's Routine
+
+</h2>
+
+</div>
+
+<div class="routine">
+
+<label>
+
+<input type="checkbox">
+
+05:00 Wake Up
+
+</label>
+
+<label>
+
+<input type="checkbox">
+
+05:10 Drink Water
+
+</label>
+
+<label>
+
+<input type="checkbox">
+
+05:20 Prayer
+
+</label>
+
+<label>
+
+<input type="checkbox">
+
+05:35 Meditation
+
+</label>
+
+<label>
+
+<input type="checkbox">
+
+05:50 Breakfast
+
+</label>
+
+<label>
+
+<input type="checkbox">
+
+06:20 Study
+
+</label>
+
+<label>
+
+<input type="checkbox">
+
+08:00 Leave For University
+
+</label>
+
+<label>
+
+<input type="checkbox">
+
+09:00-06:00 University
+
+</label>
+
+<label>
+
+<input type="checkbox">
+
+07:30 Gym
+
+</label>
+
+<label>
+
+<input type="checkbox">
+
+09:00 Dinner
+
+</label>
+
+<label>
+
+<input type="checkbox">
+
+10:00 Sleep
+
+</label>
+
+</div>
+
+</section>
+
+<!-- CONTINUE FROM HERE -->
