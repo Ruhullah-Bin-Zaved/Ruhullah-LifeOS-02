@@ -1,1 +1,162 @@
-data/foods.json
+{
+  "Egg": {
+    "unit": "100g",
+    "calories": 143,
+    "protein": 12.6,
+    "carbs": 0.7,
+    "fat": 9.5,
+    "fiber": 0
+  },
+  "Oats": {
+    "unit": "100g",
+    "calories": 389,
+    "protein": 16.9,
+    "carbs": 66.3,
+    "fat": 6.9,
+    "fiber": 10.6
+  },
+  "Soya Chunks": {
+    "unit": "100g",
+    "calories": 345,
+    "protein": 52,
+    "carbs": 33,
+    "fat": 0.5,
+    "fiber": 13
+  },
+  "Besan": {
+    "unit": "100g",
+    "calories": 387,
+    "protein": 22,
+    "carbs": 58,
+    "fat": 6.7,
+    "fiber": 11
+  },
+  "Chicken Breast": {
+    "unit": "100g",
+    "calories": 165,
+    "protein": 31,
+    "carbs": 0,
+    "fat": 3.6,
+    "fiber": 0
+  },
+  "Beef": {
+    "unit": "100g",
+    "calories": 250,
+    "protein": 26,
+    "carbs": 0,
+    "fat": 15,
+    "fiber": 0
+  },
+  "Fish": {
+    "unit": "100g",
+    "calories": 120,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 3,
+    "fiber": 0
+  },
+  "Rice": {
+    "unit": "100g",
+    "calories": 130,
+    "protein": 2.7,
+    "carbs": 28,
+    "fat": 0.3,
+    "fiber": 0.4
+  },
+  "Brown Rice": {
+    "unit": "100g",
+    "calories": 111,
+    "protein": 2.6,
+    "carbs": 23,
+    "fat": 0.9,
+    "fiber": 1.8
+  },
+  "Milk": {
+    "unit": "100ml",
+    "calories": 60,
+    "protein": 3.3,
+    "carbs": 5,
+    "fat": 3.2,
+    "fiber": 0
+  },
+  "Banana": {
+    "unit": "100g",
+    "calories": 89,
+    "protein": 1.1,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6
+  },
+  "Apple": {
+    "unit": "100g",
+    "calories": 52,
+    "protein": 0.3,
+    "carbs": 14,
+    "fat": 0.2,
+    "fiber": 2.4
+  },
+  "Dates": {
+    "unit": "100g",
+    "calories": 282,
+    "protein": 2.5,
+    "carbs": 75,
+    "fat": 0.4,
+    "fiber": 8
+  },
+  "Chickpeas": {
+    "unit": "100g",
+    "calories": 164,
+    "protein": 8.9,
+    "carbs": 27,
+    "fat": 2.6,
+    "fiber": 7.6
+  },
+  "Lentils": {
+    "unit": "100g",
+    "calories": 116,
+    "protein": 9,
+    "carbs": 20,
+    "fat": 0.4,
+    "fiber": 8
+  },
+  "Bread": {
+    "unit": "100g",
+    "calories": 265,
+    "protein": 9,
+    "carbs": 49,
+    "fat": 3.2,
+    "fiber": 2.7
+  },
+  "Potato": {
+    "unit": "100g",
+    "calories": 77,
+    "protein": 2,
+    "carbs": 17,
+    "fat": 0.1,
+    "fiber": 2.2
+  },
+  "Sweet Potato": {
+    "unit": "100g",
+    "calories": 86,
+    "protein": 1.6,
+    "carbs": 20,
+    "fat": 0.1,
+    "fiber": 3
+  },
+  "Peanut": {
+    "unit": "100g",
+    "calories": 567,
+    "protein": 26,
+    "carbs": 16,
+    "fat": 49,
+    "fiber": 8.5
+  },
+  "Almond": {
+    "unit": "100g",
+    "calories": 579,
+    "protein": 21,
+    "carbs": 22,
+    "fat": 50,
+    "fiber": 12.5
+  }
+}
